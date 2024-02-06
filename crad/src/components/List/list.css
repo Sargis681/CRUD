@@ -1,0 +1,62 @@
+.list__top{
+    
+    /* min-height: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list{
+    width: 100%;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.327);
+}
+.list__text {
+    padding: 10px;
+    width: 80%;
+    display: block;
+    text-align: justify;
+    letter-spacing: 3px;
+    overflow:hidden;
+    white-space: wrap; 
+    /* word-wrap: break-word; */
+    text-overflow: ellipsis;
+    transition: all 1s;
+  }
+  .list-text--x{
+    padding: 10px;
+    width: 88%;
+    display: block;
+    text-align: justify;
+    letter-spacing: 3px;
+    overflow:hidden;
+    white-space: wrap; 
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+  }
+.list__work{
+    /* text-align: right; */
+display: flex;
+padding: 5px;
+width: 13%;
+height: auto;
+justify-content: center;
+/* height: 30px; */
+gap: 4px;
+/* background-color: aliceblue; */
+}
+.list__delete{
+    width: 15px;
+    cursor: pointer;
+}
+.list__edit{
+    width: 15px;
+    cursor: pointer;
+
+}
+.list__bottom{
+    width: 10px;
+    cursor: pointer;
+}
+.list__date{
+    font-size: 10px;
+}

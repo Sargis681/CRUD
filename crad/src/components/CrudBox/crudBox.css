@@ -1,0 +1,60 @@
+.crudBox{
+    width: 80%;
+    min-height:400px;
+    /* box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.26); */
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.crudBox__form{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: none;
+    background-color: transparent;
+    width: 30%;
+
+}
+.crudBox__label{
+    font-size: 14px;
+   display: flex;
+   font-family: "system-ui";
+   font-weight: 500;
+}
+.crudBox__input{
+    padding: 10px;
+    border-radius: 20px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+/* input[type=text]:focus{
+    background-color: white;
+    background-image: url('https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png');
+    background-position: 10px 14px;
+    background-repeat: no-repeat;
+    background-size: 13px 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+  } */
+
+.crudBox__button{
+
+margin: 0 auto;
+padding: 5px;
+cursor: pointer;
+font-weight: bolder;
+border-radius: 4px;
+font-family: serif;
+border: none;
+
+}

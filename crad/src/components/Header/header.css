@@ -1,0 +1,12 @@
+.header{
+    background: rgb(2,0,36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
+    height: 60px;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(152,124,237,1) 43%, rgba(68,87,143,1) 63%, rgba(92,159,245,1) 94%, rgba(0,212,255,1) 100%);
+}
